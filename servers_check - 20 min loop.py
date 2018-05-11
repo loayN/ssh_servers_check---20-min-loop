@@ -34,7 +34,7 @@ while true:
 			#password = getpass.getpass('password: ')
 			#s.login (hostname, username, password)
 			print('in server ',i+1,hostlist[i]) 
-			s.login (hostlist[i], 'k2viewmonitor', 'k2v13w.m0n')
+			s.login (hostlist[i], 'username', 'password')
 			bi=0
 			while (bi<len(bashcommand)):
 					s.sendline(bashcommand[bi])
